@@ -30,7 +30,7 @@ const CourseInput = props => {
         <label >Course Goal</label>
         <input  type="text" onChange={goalInputChangeHandler} />
       </div>
-      <Button className={`className="button"${!isValid ?'blurbutton':'normalButton'}`} type="submit">Add Goal</Button>
+      <Button className={`button $ ${ !isValid ? 'blurbutton' :'normalButton'}`} type="submit">Add Goal</Button>
     </form>
   );
 };

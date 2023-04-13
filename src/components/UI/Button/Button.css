@@ -20,7 +20,8 @@
 }
 
 button.blurbutton{
-  background-color: green;
+  background-color: #e28bc5;
+  filter: blur(2px);
 }
 button.normalButton{
   background-color: #8b005d;
